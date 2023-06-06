@@ -1,0 +1,23 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+ Header{
+     padding-top: 27px;
+ }
+ .container{
+     max-width: 1032px;
+     margin: auto;
+ }
+ #menu{
+     list-style: none;
+     display: flex;
+     justify-content:flex-end;
+ }
+ header nav li{
+     margin-left: 33px;
+     transition: 0.4s;
+ }
+ header nav li:hover{
+     transform: rotate(360deg);
+ }
